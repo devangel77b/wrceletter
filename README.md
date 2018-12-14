@@ -1,6 +1,6 @@
 # wrceletter
 ### D Evangelista
-Letterhead format for US Naval Academy Dept of Weapons, Robotics, and Control Engineering. 
+Letterhead format for US Naval Academy Dept of Weapons, Robotics, and Control Engineering. The letterhead is based on the .docx file provided by the department called "stationary[sic] with line.docx". The example is based on the Navy Correspondence Manual. The docx had graphics that were low resolution and un-usable, so I had to re-generate them. Also, the docx uses a mix of Garamond and Calibri (?) while the Navy Correspondence Manual specifies Times New Roman. 
 
 ## How to get this package
 Clone the repository into your `texmf` tree. 
