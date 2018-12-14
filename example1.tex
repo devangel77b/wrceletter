@@ -1,0 +1,53 @@
+\documentclass[12pt]{wrceletter}
+
+\usepackage{mathptmx} % approximates Times New Roman per correspondence manual
+\usepackage[american]{isodate} % month dd, yyyy
+%\usepackage[british, cleanlook]{isodate} % dd month yyyy
+% both date formats seem OK per correspondence manual for flag/official notes
+%\usepackage[colorlinks=true]{hyperref}
+
+% Example on page 12-15 of Navy Correspondence Manual
+
+% for letterhead
+\name{Ray Mabus}
+\position{Professor}
+%\email{\href{mailto:ray@usna.edu}{\emph{ray@usna.edu}}}
+\email{mabus@usna.edu}
+\telephone{410-293-xxxx}
+
+% for letter opening
+\date{\printdate{2015-02-12}}
+
+% for letter closing
+\signature{Ray Mabus}
+%\signature{Ray Mabus\\Secretary of the Navy} % title not needed if in letterhead
+\address{\null} %{Washington, DC 20350-1000} % leave blank, provided in letterhead
+%\longindentation=0in % to change signature to be flushleft
+
+\begin{document}
+
+\begin{letter}{% recipient address here
+Chief of Naval Operations\\
+2000 Navy Pentagon\\
+Washington, DC 20350-2000}
+
+% opening here
+\opening{Dear Admiral Greenert,}
+
+% body here
+Thank you for speaking on my behalf at this year’s Navy League
+luncheon.
+
+Your inspiring words received many compliments. Secretary
+Carter expressed his appreciation and asked me to pass on many
+thanks. I appreciate your valuable time.
+ 
+Again, thank you.
+
+% closing here
+\closing{Warm Regards,}
+
+%\ps{post script here}
+%\encl{enclosure here}
+\end{letter}
+\end{document}

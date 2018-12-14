@@ -1,6 +1,9 @@
+*.out
 *.aux
 *.log
 *.synctex.gz
 *~
 *(busy)
 Old/*
+.~lock*
+old/*
