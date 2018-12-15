@@ -7,9 +7,9 @@ Clone the repository into your `texmf` tree.
 ```bash
 git clone https://github.com/devangel77b/wrceletter
 ```
-On Ubuntu machines, your `texmf` is typically within your home directory (usually `/home/username/texmf`). The files should probably go within `~/texmf/tex/latex` somehwere). 
+On Ubuntu machines, your `texmf` is typically within your home directory (usually `/home/username/texmf`). The files should probably go within `~/texmf/tex/latex` somehwere). After placing the files in your `texmf` tree you will want to call `sudo texhash`. 
 
-On Windows machines using Miktex I usually put the files in a `texmf` tree under `This PC > Documents` for example. 
+On Windows machines using Miktex I usually put the files in a `texmf` tree under `This PC > Documents` for example. After placing the files in your `texmf` tree you will want to use the Miktex admin tools to refresh files. 
 
 ## Examples
 See the examples using `\documentclass{wrceletter}`, which is derived from `\documentclass{letter}`. 
